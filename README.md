@@ -2,24 +2,18 @@
 
 Este projeto é um script em Python que lê arquivos CSV de forma flexível e eficiente, funcionando com diferentes formatos de separadores (`,`, `;`,...) e exibindo os dados de forma padronizada no terminal.
 
----
-
 ## Funcionalidades
 
-- 📂 Lê qualquer arquivo CSV informado pelo usuário
-- 🔎 Detecta automaticamente o delimitador do arquivo (`;`, `,`, etc.)
-- 🧠 Não carrega o arquivo inteiro na memória
-- 📊 Exibe os dados de forma organizada no terminal
-- ⚠️ Tratamento de erro para arquivo inexistente
-
----
+- Lê qualquer arquivo CSV informado pelo usuário
+- Detecta automaticamente o delimitador do arquivo (`;`, `,`, etc.)
+- Não carrega o arquivo inteiro na memória
+- Exibe os dados de forma organizada no terminal
+- Tratamento de erro para arquivo inexistente
 
 ## Tecnologias utilizadas
 
 - Python 3
 - Biblioteca padrão `csv`
-
----
 
 ## Como usar o projeto
 
@@ -35,8 +29,6 @@ Entre na pasta do projeto:
 cd leitor-csv-python
 cd leitor
 ```
-
----
 
 ### 2. Prepare o arquivo CSV
 
@@ -65,8 +57,6 @@ leitor/
 ├── dados.csv
 ```
 
----
-
 ### 3. Execute o programa
 
 No terminal, execute:
@@ -82,8 +72,6 @@ Digite o nome do arquivo CSV: dados.csv
 ```
 
 O conteúdo do arquivo será exibido no terminal.
-
----
 
 ## Como o programa funciona por dentro
 
@@ -112,9 +100,6 @@ Isso evita:
 
 Após a detecção, o arquivo é lido normalmente desde o início.
 
----
-
 ## Observações importantes
 
 * Caso o arquivo não esteja em UTF-8, pode ser necessário ajustar o `encoding`
----
